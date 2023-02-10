@@ -1,0 +1,123 @@
+
+body {
+    font-family: 'Rubik';
+    }
+    
+    /*Change Text Selection Color*/
+    ::-moz-selection { 
+    color: white;
+      background: #20a39e 108%;
+    }
+    
+    ::selection {
+      color: white;
+      background: #20a39e 108%;
+    }
+    
+    body {
+        background: rgb(34,193,195);
+        background: linear-gradient(317deg, rgba(34,193,195,1) 0%, rgba(253,45,226,1) 100%);
+        min-height: 100vh;
+        text-align: center;
+    }
+    .instagram:hover {
+        background: #d6249f;
+        background: linear-gradient( 28deg, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    }
+    a:hover {
+        color: #fff;
+        border-radius: 25px;
+    }
+    .logo {
+        width: 170px;
+        background: rgba(0,0,0,0);
+        padding: 20px;
+    }
+    
+    .title {
+    color: white;
+    }
+    .header-text {
+    color: white;
+    }
+    
+    .buttons{
+    margin-top: 3%;
+    }
+    
+    a {
+        display: block;
+        max-width: 400px;
+        margin: 0 auto 15px;
+        padding: 15px 20px;
+        font-size: .85rem;
+        color: #fff;
+        border: 2px solid #fff;
+        border-radius: 10px;
+        text-decoration: none;
+        transition: all .2s ease-in-out;
+    }
+    
+    a.featured {
+        position: relative;
+        background-color: #fff;
+        color: #f48ced;
+        font-weight: 700
+    }
+    
+    a.featured:before {
+        content: "";
+        position: absolute;
+        top: 2px;
+        left: 2px;
+        width: calc(100% - 4px);
+        height: calc(100% - 4px);
+        border: 2px solid #f48ced
+    }
+    
+    h2 {
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: 400;
+        letter-spacing: 2px
+    }
+    
+    html {
+        box-sizing: border-box;
+        font-size: 100%
+    }
+    *,
+    :after,
+    :before {
+        box-sizing: inherit
+    }
+    
+    .content {
+    margin-top: 5%;
+    }
+    
+    .channels {
+        display: flex;
+        max-width: 400px;
+        margin: 0 auto;
+        margin-bottom: 15px;
+        position: bottom;
+    }
+    
+    .channels a {
+        flex: 1;
+        padding: 5px 10px;
+        margin-right: 10px;
+        background-color: #ffffff00;
+        border: none
+        
+    }
+    
+    .channels a:last-child {
+        margin-right: 0
+    }
+    
+    .channels a:hover {
+        color: #000;
+        text-decoration: underline
+    }
